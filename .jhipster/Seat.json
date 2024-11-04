@@ -1,0 +1,21 @@
+{
+  "annotations": {
+    "changelogDate": "20240801131003"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "seatNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "seatType",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Seat",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

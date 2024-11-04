@@ -1,0 +1,48 @@
+entity Seat {
+	seatNumber String
+    seatType String
+}
+
+entity Movie {
+	title String
+    genre String
+    duration Integer
+    releaseDate LocalDate
+}
+
+entity Booking {
+	movieTime LocalDate
+    paymentStatus String
+}
+
+entity Screen {
+	name String
+    totalSeats Integer
+}
+
+entity Customer {
+	name String
+    email String
+    phoneNumber String
+}
+
+relationship OneToMany {
+	Movie {screen} to Screen
+    Screen {seat} to Seat
+    Customer {booking} to Booking
+    Booking {seat} to Seat
+    Booking {screen} to Screen
+    Movie {booking} to Booking
+    
+}
+
+
+paginate Movie, Booking with pagination
+service * with serviceClass
+dto * with mapstruct
+
+
+
+
+
+

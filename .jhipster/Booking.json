@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20240801131005"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "movieTime",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "paymentStatus",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Booking",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "seat",
+      "relationshipName": "seat",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "screen",
+      "relationshipName": "screen",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

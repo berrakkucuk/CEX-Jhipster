@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240801131006"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalSeats",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Screen",
+  "relationships": [
+    {
+      "otherEntityName": "seat",
+      "relationshipName": "seat",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

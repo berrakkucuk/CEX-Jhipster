@@ -1,0 +1,29 @@
+{
+  "cinemaSystemApp": {
+    "booking": {
+      "home": {
+        "title": "Bookings",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Booking erstellen",
+        "createOrEditLabel": "Booking erstellen oder bearbeiten",
+        "notFound": "Keine Bookings gefunden"
+      },
+      "created": "Booking erstellt mit ID { param }",
+      "updated": "Booking aktualisiert mit ID { param }",
+      "deleted": "Booking gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Booking { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Booking"
+      },
+      "id": "ID",
+      "movieTime": "Movie Time",
+      "paymentStatus": "Payment Status",
+      "seat": "Seat",
+      "screen": "Screen",
+      "movie": "Movie",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cinemaSystemApp": {
+    "screen": {
+      "home": {
+        "title": "Screens",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Screen erstellen",
+        "createOrEditLabel": "Screen erstellen oder bearbeiten",
+        "notFound": "Keine Screens gefunden"
+      },
+      "created": "Screen erstellt mit ID { param }",
+      "updated": "Screen aktualisiert mit ID { param }",
+      "deleted": "Screen gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Screen { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Screen"
+      },
+      "id": "ID",
+      "name": "Name",
+      "totalSeats": "Total Seats",
+      "seat": "Seat",
+      "movie": "Movie",
+      "booking": "Booking"
+    }
+  }
+}

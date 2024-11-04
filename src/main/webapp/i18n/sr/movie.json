@@ -1,0 +1,29 @@
+{
+  "cinemaSystemApp": {
+    "movie": {
+      "home": {
+        "title": "Movies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreiraj novi Movie",
+        "createOrEditLabel": "Kreirajte ili izmenite Movie",
+        "notFound": "No Movies found"
+      },
+      "created": "Kreiran je novi Movie pod nazivom { param }",
+      "updated": "Movie pod nazivom { param } je ažuriran",
+      "deleted": "Movie pod nazivom { param } je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Movie pod nazivom { id }?"
+      },
+      "detail": {
+        "title": "Movie"
+      },
+      "id": "ID",
+      "title": "Title",
+      "genre": "Genre",
+      "duration": "Duration",
+      "releaseDate": "Release Date",
+      "screen": "Screen",
+      "booking": "Booking"
+    }
+  }
+}

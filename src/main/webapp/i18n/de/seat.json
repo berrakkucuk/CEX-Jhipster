@@ -1,0 +1,27 @@
+{
+  "cinemaSystemApp": {
+    "seat": {
+      "home": {
+        "title": "Seats",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Seat erstellen",
+        "createOrEditLabel": "Seat erstellen oder bearbeiten",
+        "notFound": "Keine Seats gefunden"
+      },
+      "created": "Seat erstellt mit ID { param }",
+      "updated": "Seat aktualisiert mit ID { param }",
+      "deleted": "Seat gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Seat { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Seat"
+      },
+      "id": "ID",
+      "seatNumber": "Seat Number",
+      "seatType": "Seat Type",
+      "booking": "Booking",
+      "screen": "Screen"
+    }
+  }
+}

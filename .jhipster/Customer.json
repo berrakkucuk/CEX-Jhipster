@@ -1,0 +1,32 @@
+{
+  "annotations": {
+    "changelogDate": "20240801131007"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Customer",
+  "relationships": [
+    {
+      "otherEntityName": "booking",
+      "relationshipName": "booking",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

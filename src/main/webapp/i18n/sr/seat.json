@@ -1,0 +1,27 @@
+{
+  "cinemaSystemApp": {
+    "seat": {
+      "home": {
+        "title": "Seats",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreiraj novi Seat",
+        "createOrEditLabel": "Kreirajte ili izmenite Seat",
+        "notFound": "No Seats found"
+      },
+      "created": "Kreiran je novi Seat pod nazivom { param }",
+      "updated": "Seat pod nazivom { param } je ažuriran",
+      "deleted": "Seat pod nazivom { param } je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Seat pod nazivom { id }?"
+      },
+      "detail": {
+        "title": "Seat"
+      },
+      "id": "ID",
+      "seatNumber": "Seat Number",
+      "seatType": "Seat Type",
+      "booking": "Booking",
+      "screen": "Screen"
+    }
+  }
+}
